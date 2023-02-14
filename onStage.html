@@ -16,6 +16,16 @@ Author: Mohammed Hisam
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <style>
+
+        @font-face {
+            font-family: malharFont;
+            src: url('/assets/fonts/malhar.ttf') format("truetype");
+        }
+
+        .malhar {
+            font-family: malharFont;
+        }
+
         .collapsible {
             /*background-color: #eee;*/
             /*color: #444;*/
@@ -99,8 +109,8 @@ Author: Mohammed Hisam
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke">
             <h1>
-                <a class="navbar-brand" href="index.html">
-                    <img class="img-fluid" width="45" src="assets/images/logo.png" alt=" "> Malhar
+                <a class="navbar-brand malhar" href="index.html">
+                    <img class="img-fluid" width="45" src="assets/images/logo.png" alt=" ">Malhar
                 </a>
             </h1>
             <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
@@ -197,7 +207,7 @@ Author: Mohammed Hisam
                     <div class="progress-outer">
                         <div class="progress">
                             <div class="progress-bar progress-bar-warning progress-bar-striped active"
-                                 style="width:80%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7); background-color:#F0AD4E;">
+                                 style="width:90%; box-shadow:-1px 10px 10px rgba(240, 173, 78,0.7); background-color:#F0AD4E;">
                                 <div class="progress-value">Citrine:83</div>
                             </div>
 
@@ -224,6 +234,9 @@ Author: Mohammed Hisam
 
 
         <h4 class="inner-text-title font-weight-bold mb-sm-3 mb-2 mt-5 text-center">On Stage Items Results</h4>
+        <!--<h4 class="inner-text-title font-weight-bold mb-sm-3 mb-2 mt-5 text-center">Day 2</h4>-->
+
+        <h4 class="inner-text-title font-weight-bold mb-sm-3 mb-2 mt-5 text-center">Day 1</h4>
 
         <!-- MonoAct -->
         <div class="container" style="margin-top: 1rem;">
